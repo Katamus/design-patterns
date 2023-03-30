@@ -1,4 +1,4 @@
-package org.example.creational_patterns.government;
+package org.example.creational_patterns.singleton.government;
 
 public class Government {
 
