@@ -1,0 +1,20 @@
+package org.example.behavioral_patterns.command.electronicos;
+
+import org.example.behavioral_patterns.command.electronicos.commands.Command;
+
+public class DeviceButton {
+
+    private Command command;
+
+    public DeviceButton(Command command){
+        this.command = command;
+    }
+
+    public void press(){
+        command.execute();
+    }
+
+    public void pressUndo(){
+        command.undo();
+    }
+}
